@@ -67,3 +67,61 @@ hobbies> optional
 map
 footer
 social link
+
+How to upload code on github
+How to make website live using github pages
+
+https://forms.gle/SD47R8M8tHRasBEDA
+
+Inline Css
+StyleTag
+StyleSheet
+
+
+Inline > StyleTag > StyleSheet
+
+inline
+{
+    color:red,
+    height:250px
+}
+
+styleTag{
+    color:orange,
+    width:250px,
+    background:red
+}
+
+stylesheet{
+    height:300px;
+    width:90px;
+    font-size:30px;
+    z-index:10
+}
+
+
+{
+   color:red,
+   height:250px,
+   width:250px,
+   background:red,
+   font-size:30px;
+   z-index:10
+}
+
+
+https://htmlcolorcodes.com/
+
+/////Target element in HTML
+
+> TagName
+* To target through tag name  h1,p
+* If we target through tag name all the tag of that name will get the property
+
+> Class
+* when you want to target multiple elements to get same property
+* symbol is .
+
+> Id
+* when you want unique element for the property
+* symbol is #
