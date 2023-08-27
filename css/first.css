@@ -1,0 +1,64 @@
+#mainDiv{
+    width:100%;
+    display: inline-block;
+}
+
+h1{
+    color:purple;
+    text-align: center;
+}
+
+#cardHeading{
+    color:orange;
+}
+
+.card{
+    height:400px;
+    background-color:skyblue;
+    width:20%;
+    float:left;
+    margin:2%;
+    overflow: scroll;
+}
+
+.brown{
+    background-color:#c59f88;
+}
+
+#blue{
+    background-color:#90b6d1;
+}
+
+.gray{
+    background-color:#dcad8b;
+}
+
+.card  img{
+    width:100%;
+    height:200px
+}
+
+/* Flex Box */
+.flatCard{
+    width:80%;
+    margin-left: 10%;
+    height:250px;
+    background-color:rgb(181, 154, 222);
+    display:flex;
+}
+
+#imgDiv{
+    width:35%;
+    height:100%;
+}
+
+#imgDiv img{
+    height:100%;
+    width:100%
+}
+
+#textDiv{
+    width:60%;
+    margin-left: 3%;
+    height:100%;
+}
