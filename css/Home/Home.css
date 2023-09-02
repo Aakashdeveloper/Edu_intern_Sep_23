@@ -39,9 +39,117 @@ header{
     background-size: 100% 450px;
 }
 
+.logo{
+    height:150px;
+    width: 150px;
+    background-color: white;
+    border-radius:50%;
+    margin-left: 46%;
+    margin-top: 2%;
+    position: absolute;
+    font-size:90px
+}
+
+.logo > span{
+    margin-left: 20%;
+    margin-top: 15%;
+    position: absolute;
+}
+
+#heading{
+    font-size:60px;
+    color:white;
+    margin-left: 33%;
+    margin-top: 15%;
+    position: absolute;
+}
+
+.dropdown{
+    height:60px;
+    width:50%;
+    /* border:2px solid white; */
+    margin-left: 30%;
+    margin-top: 22%;
+    position: absolute;
+}
+
+select{
+    height:60px;
+    width:40%;
+    font-size:20px;
+    text-align: center;
+}
+
+#restSelect{
+    width:59%;
+}
+
 #quickSearch{
-    height:600px;
-    border:5px dotted blue
+    /* height:600px; */
+    /* border:5px dotted blue; */
+    width:80%;
+    margin-left: 10%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.quickHeading{
+    color:#3b2632;
+    font-size:30px;
+    font-weight:bold;
+    display: block;
+    margin-left: 2%;
+}
+
+.quickSubHeading{
+    font-size:20px;
+    color:gray;
+    line-height: 2;
+    margin-left: 2%;
+}
+
+#tileBox{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tileContainer{
+    height:180px;
+    width:30%;
+    margin-left: 2%;
+    margin-top: 3%;
+    display: flex;
+    box-shadow: 10px 20px 10px #3b2632;
+}
+
+.tileComponent1{
+    width:52%;
+}
+
+.tileComponent1 > img{
+    width: 100%;
+    height: 100%;
+   
+}
+
+.tileComponent2{
+    width:45%;
+    margin-left: 3%;
+    margin-top: 15%;
+}
+
+.compHeading{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.compHeading > a{
+    color:#3b2632 !important;
+}
+
+.compSubHeading{
+    font-size: 20px;
+    color:gray
 }
 
 footer{
