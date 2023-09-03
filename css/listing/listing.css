@@ -1,0 +1,79 @@
+body{
+    margin:auto;
+    background:rgb(188, 188, 222)
+}
+
+a{
+    text-decoration:none
+}
+
+header{
+    height:60px;
+    /*border:5px solid hotpink;*/
+    background-color: #3b2632;
+}
+
+#brand{
+    float: left;
+    color:white;
+    font-size: 30px;
+    margin-top:1%;
+    margin-left:1%
+}
+
+#social{
+    float: right;
+}
+
+.socialLogo{
+    height:50px
+}
+
+
+#content{
+    width:85%;
+    margin-left:7.5%;
+    margin-top:3%;
+    display: flex;
+}
+
+.filter{
+    height:500px;
+    width:20%;
+    border:2px solid red;
+}
+
+.restContent{
+    height:700px;
+    width:70%;
+    border:2px solid orange;
+    margin-left:7%
+}
+
+
+/* Footer */
+footer{
+    /* height: 80px; */
+    /* border:10px double orange */
+    background-color: #3b2632;
+    text-align: center;
+    color: white
+}
+
+.footText{
+    font-size: 20px;
+}
+
+.footDiv{
+    display: inline-block;
+    width:32%;
+    border-right: 2px solid white;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.noborder{
+    border:none
+}
