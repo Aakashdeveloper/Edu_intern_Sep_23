@@ -173,3 +173,32 @@ bootstrap 5
 
 
 eval
+
+///regex 
+regular expression
+
+Nodejs
+Single Thread > all request will come at same place
+async > Multiple processing can happen paraller
+non-blocking> Do not block other requets
+ I/O > Input output
+
+ npm
+ > node package manager
+
+
+ package.json
+ > Entry point to the app
+ > contains list of all the packages
+ > contains script to start stop build
+ > Meta data (name,version,description)
+
+ /// Step to generate package.json
+ > open terminal and go inside the folder
+ > type npm init
+ > answer all question
+ > type "yes"
+
+  /// Step to install package
+  > open terminal and go inside the folder
+  > npm i packagename
