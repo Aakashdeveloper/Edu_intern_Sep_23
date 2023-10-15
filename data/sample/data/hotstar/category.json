@@ -1,0 +1,14 @@
+[
+    {
+        "id":1,
+        "category":"Sports"
+    },
+    {
+        "id":2,
+        "category":"Bollywood"
+    },
+    {
+        "id":3,
+        "category":"Hollywood"
+    }
+]
