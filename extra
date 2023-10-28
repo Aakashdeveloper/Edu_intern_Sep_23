@@ -202,3 +202,25 @@ non-blocking> Do not block other requets
   /// Step to install package
   > open terminal and go inside the folder
   > npm i packagename
+
+
+localdependency
+> used only inside the application
+> npm i packages
+> install inside folder
+
+global dependency
+> install in laptop in c drive
+> open cmd as adminstrator
+> npm i -g packagename
+
+npm i -g nodemon
+
+// HTTP Methods
+C > Create   (POST)
+R > Read     (GET)
+U > Update   (PUT)
+D > Delete   (DELETE)
+
+
+npm i cors body-parser dotenv express mongodb
