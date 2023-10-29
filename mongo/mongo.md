@@ -66,3 +66,13 @@ Database
 
 
 mongodb+srv://Test:ab4ewbd@cluster0.f8vmc.mongodb.net/?retryWrites=true&w=majority
+
+///find all data
+db.collectionname.find()
+
+db.location.find()
+
+//find with condition
+db.restaurants.find({state_id:3})
+
+db.restaurants.find({state_id:3,rating_text: 'Excellent'})

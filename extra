@@ -224,3 +224,17 @@ D > Delete   (DELETE)
 
 
 npm i cors body-parser dotenv express mongodb
+
+cors > cross origin resource sharing
+
+params
+> What we pass after /
+> we need to declare in the route
+> If defined then complusory to pass
+> req.params.id
+
+queryParams
+> What we pass after ?
+> No need to declare in the route
+> No need to pass
+> req.query.id
