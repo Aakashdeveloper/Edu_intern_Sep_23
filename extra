@@ -238,3 +238,25 @@ queryParams
 > No need to declare in the route
 > No need to pass
 > req.query.id
+
+db > database connection
+config> secert require for token
+userSchema > for database structure
+authController > for all logics
+app > main file
+
+
+SPA > Single Page application
+
+// Step to generate react app
+> open cmd and go inside folder
+> npx create-react-app appname
+
+
+function add(a,b){
+    let out = [a,b]
+    return out
+}
+
+add(1,2)
+[1,2]
