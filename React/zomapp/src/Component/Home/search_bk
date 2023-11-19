@@ -1,0 +1,47 @@
+import React,{useState} from 'react';
+import './Search.css';
+
+const Search = () => {
+
+    const [title] = useState(' Find Best Place For Food')
+    const [count,setCount] = useState(0);
+    const [count1,setCount1] = useState(0);
+
+    function updateCount(){
+        setCount(count+1);
+    }
+
+    function updateCount1(){
+        setCount1(count1+1);
+    }
+
+
+    console.log('Component Render')
+
+    return(
+        <div id="search">
+           <div className="logo">
+               <span>D!</span>
+           </div>
+           <div id="heading">
+              {title} {count} {count1}
+           </div>
+           <button onClick={updateCount}>Click</button>
+           <button onClick={updateCount1}>Click1</button>
+           <div className="dropdown">
+                <select>
+                   <option>-----SELECT YOUR CITY-----</option>
+                   <option>Delhi</option>
+                   <option>Amsterdam</option>
+                </select>
+                <select id="restSelect">
+                    <option>-----SELECT YOUR RESTAURANTS-----</option>
+                    <option>Wow Momos</option>
+                    <option>Pret A Manger</option>
+                </select>
+           </div>
+        </div>
+    )
+}
+
+export default Search;

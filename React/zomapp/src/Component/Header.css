@@ -1,0 +1,30 @@
+body{
+    margin:auto;
+    background:rgb(188, 188, 222)
+}
+
+a{
+    text-decoration:none
+}
+
+header{
+    height:60px;
+    /*border:5px solid hotpink;*/
+    background-color: #3b2632;
+}
+
+#brand{
+    float: left;
+    color:white;
+    font-size: 30px;
+    margin-top:1%;
+    margin-left:1%
+}
+
+#social{
+    float: right;
+}
+
+.socialLogo{
+    height:50px
+}

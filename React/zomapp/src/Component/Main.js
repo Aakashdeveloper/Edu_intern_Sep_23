@@ -1,9 +1,10 @@
 import React from 'react';
+import {Outlet} from 'react-router-dom';
 
 const Main = () => {
     return(
         <>
-            <h1>Main Component</h1>
+            <Outlet/>
         </>
     )
 }

@@ -260,3 +260,51 @@ function add(a,b){
 
 add(1,2)
 [1,2]
+
+
+/// open cmd as admin
+> npm i -g create-react-app 
+
+
+// open cmd not as admin
+> go inside the folder
+> create-react-app appname
+
+
+State
+> every component can have its own state
+> act like a local variable
+> Any data interaction will happen through state
+> With every State Change component will rerender
+
+Props
+> Use to transfer data between 2 nested component
+
+
+Hooks
+> Methods inside the react
+> We can maintain state as well as calling api
+
+useState > Help to maintain state in the component
+useEffect > Help to call api
+
+
+
+(get) cityname >           http://3.17.216.66:4000/location
+(get) restwrtcity >        http://3.17.216.66:4000/restaurant?stateId=1
+(get) quickSearch>         http://3.17.216.66:4000/quicksearch
+
+(get) onbasisofMeal >      http://3.17.216.66:4000/restaurant?mealtype_id=
+(get) cuisinefilter >      http://3.17.216.66:4000/filter/4?cuisine=1
+(get) costfilter >         http://3.17.216.66:4000/filter/1?hcost=1000&lcost=500
+
+(get) restdetails >        http://3.17.216.66:4000/details/1
+(get) menu >               http://3.17.216.66:4000/menu/1
+
+(post) orderspage >        http://3.17.216.66:4000/menuItem
+                           body [1,4,5]
+(post)placeOrder >        
+
+(get) allorder>            
+       
+(get) restaurants>         http://3.17.216.66:4000/restaurants
