@@ -1,5 +1,6 @@
 import React from 'react';
 import './Header.css';
+import {Link} from 'react-router-dom';
 
 const Header = () => {
     return(
@@ -7,7 +8,7 @@ const Header = () => {
             <div id="brand">
                 Developer Funnel
             </div>
-            <a href="../Home/Home.html">Home</a>
+            <Link to="/">Home</Link>
             <div id="social">
                 <a href="#">
                     <img src="https://i.ibb.co/bsXv4bf/facebook.png" alt="fb" className="socialLogo"/>

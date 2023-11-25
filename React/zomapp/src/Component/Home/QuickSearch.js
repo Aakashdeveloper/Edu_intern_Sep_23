@@ -1,26 +1,26 @@
-import React from 'react';
+import React, { useState,useEffect } from 'react';
 import './QuickSearch.css';
+import QuickDisplay  from './QuickDisplay';
+
+const baseUrl = process.env.REACT_APP_API_URL
 
 const QuickSearch = () => {
+
+    const [mealType,setMealType] = useState([]);
+
+    useEffect(() => {
+        fetch(`${baseUrl}/quicksearch`,{method:'GET'})
+        .then((res) => res.json())
+        .then((data) => {
+            setMealType(data)
+        })
+    },[])
+
     return(
         <div id="quickSearch">
             <span className="quickHeading">Quick Search</span>
             <span className="quickSubHeading">Find Restaurants By MealType</span>
-            <div id="tileBox">
-                <div className="tileContainer">
-                    <div className="tileComponent1">
-                        <img src="image/drinks.png" alt="drinks"/>
-                    </div>
-                    <div className="tileComponent2">
-                        <div className="compHeading">
-                            <a href="../listing/listing.html">BreakFast</a>
-                        </div>
-                        <div className="compSubHeading">
-                            Best Deal For BreakFast
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <QuickDisplay mealData={mealType}/>
         </div>
     )
 }
