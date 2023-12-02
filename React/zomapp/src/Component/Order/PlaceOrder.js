@@ -29,6 +29,15 @@ const PlaceOrder = () => {
 
     const checkout = () => {
         console.log(values)
+        fetch(`${baseUrl}/orders`,{
+            method: 'POST',
+            headers:{
+                'accept':'application/json',
+                'Content-Type':'application/json'
+            },
+            body:JSON.stringify(values)
+        })
+        .then(navigate('/viewOrder'))
     }
 
     return(

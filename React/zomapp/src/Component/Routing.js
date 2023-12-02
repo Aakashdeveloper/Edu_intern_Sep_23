@@ -7,6 +7,7 @@ import Home from './Home/Home';
 import Listing from './Listing/listingLogic';
 import Details from './Details/detailsLogic';
 import PlaceOrder from './Order/PlaceOrder';
+import ViewOrder from './Order/ViewOrder';
 
 
 const Routing = () => {
@@ -20,6 +21,7 @@ const Routing = () => {
                         <Route path="listing/:mealId" element={<Listing/>}/>
                         <Route path="details" element={<Details/>}/>
                         <Route path="placeOrder/:restName" element={<PlaceOrder/>}/>
+                        <Route path="viewOrder" element={<ViewOrder/>}/>
                     </Route>
                 </Routes>
                 <Footer/>

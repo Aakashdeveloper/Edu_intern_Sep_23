@@ -308,3 +308,11 @@ useEffect > Help to call api
 (get) allorder>            
        
 (get) restaurants>         http://3.17.216.66:4000/restaurants
+
+
+dummy APi
+> open cmd as adminstrator
+> npm i -g json-erver
+
+> open terminal go inside folder
+> json-server --watch data.json --port 9911

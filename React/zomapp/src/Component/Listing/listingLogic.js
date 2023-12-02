@@ -3,6 +3,7 @@ import './listing.css';
 import { useParams } from 'react-router-dom';
 import axios from 'axios';
 import ListingDisplay from './listingDisplay';
+import CuisineFilter from '../filters/cuisineFilter';
 
 
 const baseUrl = process.env.REACT_APP_API_URL
@@ -21,14 +22,19 @@ const Listing = () => {
         .then((res) => {
             setRestList(res.data)
         })
-    },[])
+    },[]);
+
+    const setDataPerFilter = (data) => {
+        setRestList(data)
+    }
 
     return(
         <>
             <div className="row">
                 <div id="mainListing">
                     <div id="filter">
-
+                        <CuisineFilter mealId={mealId}
+                        restPerCuisine={(data) => {setDataPerFilter(data)}}/>
                     </div>
                     <ListingDisplay  listData={restList}/>
                 </div>
