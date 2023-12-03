@@ -4,6 +4,8 @@ import { useParams } from 'react-router-dom';
 import axios from 'axios';
 import ListingDisplay from './listingDisplay';
 import CuisineFilter from '../filters/cuisineFilter';
+import CostFilter from '../filters/costFilter';
+import Header from '../Header';
 
 
 const baseUrl = process.env.REACT_APP_API_URL
@@ -30,11 +32,14 @@ const Listing = () => {
 
     return(
         <>
+            <Header/>
             <div className="row">
                 <div id="mainListing">
                     <div id="filter">
                         <CuisineFilter mealId={mealId}
                         restPerCuisine={(data) => {setDataPerFilter(data)}}/>
+                        <CostFilter restPerCost={(data) => {setDataPerFilter(data)}}
+                         mealId={mealId}/>
                     </div>
                     <ListingDisplay  listData={restList}/>
                 </div>

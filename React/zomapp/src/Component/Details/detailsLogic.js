@@ -1,7 +1,8 @@
 import React,{useState,useEffect} from 'react';
 import {useParams,useSearchParams,useNavigate,Link, Navigate} from 'react-router-dom';
 import axios from 'axios';
-import './details.css'
+import './details.css';
+import Header from '../Header';
 
 
 const baseUrl = process.env.REACT_APP_API_URL
@@ -32,6 +33,7 @@ const Details = () => {
         if(restDetails){
             return(
                 <>
+                  <Header/>
                    <div className='tileImage'>
                     <div className='imageClass'>
                         <img src={restDetails.restaurant_thumb}

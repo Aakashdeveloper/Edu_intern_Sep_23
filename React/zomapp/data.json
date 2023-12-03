@@ -17,6 +17,24 @@
       "cost": 464,
       "phone": "887654322",
       "address": "Hon 12 sec 34"
+    },
+    {
+      "id": 374341,
+      "rest_name": "AMA Cafe",
+      "name": "Nikki",
+      "email": "nikki@gmail.com",
+      "cost": 940,
+      "phone": "343432",
+      "address": "Hon 12 sec 34"
+    },
+    {
+      "id": 290544,
+      "rest_name": "AMA Cafe",
+      "name": "Nidhi",
+      "email": "nidhi@gmail.com",
+      "cost": 393,
+      "phone": "343432",
+      "address": "Hon 12 sec 34"
     }
   ]
 }
